@@ -9,7 +9,7 @@ function getTrueNumber(num) {
 
 function calculateRemainingTime() {
   const comingYear = new Date().getFullYear() + 0;
-  const comingDate = new Date(`Feb 10, ${comingYear} 00:00:00`);
+  const comingDate = new Date(`Feb 17, ${comingYear} 00:00:00`);
 
   const now = new Date();
   const remainingTime = comingDate.getTime() - now.getTime();
